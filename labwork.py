@@ -1,3 +1,76 @@
+# variable in Python=-
+                
+                # variable are container for storing data value,,
+                
+    # Example=-
+
+#x = 5
+#y = "amjad"
+#print(x)
+#print(y)
+#print(type(x))
+
+#x,y,z = 2,3,4
+#print(x,y,z)
+#x,y,z = "amjad","khan","khattak"
+#print(x,y,z)
+#x=y=z = "amjad"
+#print(x)
+#print(y)
+#print(z)
+#amjad = [1,2,3,4,5,6,7,8]
+#x=amjad
+#print(x)
+         
+            #___________***_________#
+            
+ # Casting=-
+             # if u want to specify the data type of variable,this can be done casting,
+             
+   #Example=-
+               
+#x = str(5) # x will be '5'                    
+#print(x)
+
+#y = int(5) # y will be 5
+#print(y)
+
+#z = float(5) # z will be 5.0
+#print(z)
+
+               #__________****________#
+               
+ # Variable name=-
+ 
+  # 1) Camel Case=-
+     
+     # myVariableName = "amjad"             
+ 
+ # 2) Pascal case=-
+ 
+      #MyVariableName = "amjad"
+      
+ # 3) Snake case=-
+      
+            # my_variable-name = "amjad"
+            
+                   #________*****_______#      
+
+  
+  # Global variable=-
+                      # Create a variable outside of function and used both inside & outside the function,
+
+# Example=- 
+ 
+#x = "awesome"
+
+#def myfunc():
+ #    print("python is "+ x)
+     
+#myfunc()     
+
+
+
 #data type
 
 # 1) python List=-
@@ -5,11 +78,13 @@
 
   # Example=-                
 
-#list = [10,10.9 ,45,55,67,99,"tufail",11,15,"amjad"]
+list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
 #print(type(list),list)
 #print (list)
 #print (len(a))
-#print (a[3])
+#print (list[3])
+#print(list[4:])
+#print(list[:4])
 #print (type(a))
 #Text = "my is Amjad and i am"+ age
 #age=20
@@ -18,7 +93,7 @@
 #print(list)
 #list.append("javascript")
 #print(list)
-#list.extend("1,2,3,4,55,6,77")
+#list.extend("1,2,3,4,55,6,77,343,545,56,77,443,66,434,567,78,43,57,898,65,443,56,54,546,787")
 #print(list)
 #list.remove("amjad")
 #print(list)
@@ -40,7 +115,10 @@
 #print(list[3])
 #print(list[4])
 #print(list[5])
-
+#if 55 in list:
+ #    print("yes 55 in present")
+#list[1]="khattak"
+#print(list)
                 #__________********_________#
 
 # 2)Tuple=-
@@ -85,24 +163,41 @@
 
 #str= "amjad","khan","tufail","rashid","arshad","sohail"
 #print(str)
+#print(str.count("amjad"))
+#print(str.index("rashid"))
 #print(len(str))
 #print("amjad" in str)
 #print("hafezz" in s)
 #print(str[1::4])
+#print(str[:4])
+#print(str[3:])
 #print(str[0])
 #print(str[1])
 #print(str[2])
 #print(str[3])
 #print(str[4])
+#a = "  amjad kkhattak  "
+#print(a.capitalize())
+#print(a.upper()) 
+#print(a.strip())  # strip remove any white space 
+#print(a.replace("a", "m")) 
+#b = a.split(",")
+#print(b)
+#age = 20
+#txt = "My name is Amjad khan, I am" + age
+#print(txt)
 
- #Looping throuh a string,,
+   #Looping throuh a string,,
  
-str1 = "Amjad khattak from karak" 
-for character in str1:
-   print(character)    
+#str1 = "Amjad khattak from karak" 
+#for character in str1:
+#   print(character)    
       
 
-#Function 
+               #___________*****___________#
+
+
+#Function=- 
           #Function is block of code disgn to perform a particular task,,, whenever it is called,,,
           
           #There are two type of function
