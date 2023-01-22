@@ -71,14 +71,14 @@
 
 
 
-#data type
+# data type
 
 # 1) python List=-
                   #List is an ordered sequence of item or element,,
 
   # Example=-                
 
-list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
+#list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
 #print(type(list),list)
 #print (list)
 #print (len(a))
@@ -119,6 +119,30 @@ list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
  #    print("yes 55 in present")
 #list[1]="khattak"
 #print(list)
+
+# List looping
+
+        # print all item in the list one by one:
+        
+        
+#for x in list:
+ #  print(x)        
+
+     # print all item by referring to their index number:
+     
+#for i in range(len(list)):
+# print(list[i])
+#list1 = [1,2,3,4,55,6,77,343,545,56,77,443,66,434,567,78,43,57,898,65,443,56,54,546,787]
+#list1.sort()
+#print(list1)
+#list2 = list1.copy()
+#print(list2)
+#list2 = list1 + list 
+#print(list2)
+
+
+
+
                 #__________********_________#
 
 # 2)Tuple=-
@@ -126,7 +150,7 @@ list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
          
    #Example=
 
-#tup=(1,2,3,4,5,6,7,8,9,10)
+#tuple=(1,2,3,4,5,6,7,8,9,10)
 #tuple2=("amjad","khan","tufail","zaman")
 #print(tuple1)
 #print(tuple2)   
@@ -142,6 +166,9 @@ list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
 #print(tuple1[8])
 #print(tuple1[9])
 #print(len(tup))
+#tuple3 = tuple + tuple2
+#print(tuple3)
+
 #if 6 in tup:
      # print("yes 6 is present in tuple")      
 #if 20 in tup:
@@ -153,7 +180,8 @@ list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
                     #_________*********__________#
         
 
-#String=-
+# 3) String=-
+     
          # String in python are surrounding by either single or double quotation mark,,
          
 # Example=-
@@ -197,6 +225,130 @@ list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
                #___________*****___________#
 
 
+# 4) Set=-
+
+       # set are used to multiple item in a single variable,,
+       
+       # set is unorderd
+       # set is unchange
+       # Duplicate not allowed
+       
+# Example=-
+
+#set = {1,2,3,4,5,6,7,8,9,10}
+#print(set)
+#print(len(set))              
+#print(type(set))
+#print(5 in set)
+#for x in set:
+#   print(x)   
+#set.add(11)
+#print(set)
+#set.remove(5)
+#print(set)
+#set.discard(9) -
+#print(set)
+#set.pop()    # Remove random item to used pop,
+#print(set)
+#set.clear()
+#print(set)
+
+#for x in set:  # Looop using
+ #  print(x)
+
+#set1 = {11,22,33,44,55,66,77,88}
+#set3 = set.union(set1)
+#print(set3)
+
+#set.update(set1)
+#print(set)
+
+              #__________***___________#
+              
+              
+              
+# 5) Dictionary=-
+                   # Dictionary are used to store data value in key value pair,,
+                   # Dictionary is ordered,
+                   # Dictionary is changeable, 
+                   # Dictionary is duplicate not allowed,             
+#Example=-
+
+#dict = {
+   
+   #"name": "Amjad",
+   #"frnd": "tufail",
+   #"age":   "20"
+      
+#}
+
+#print(dict)
+#print(dict["name"])
+#print(dict["age"])
+#print(len(dict))
+#print(type(dict))
+#x = dict.get("frnd")
+#print(x)
+#x= dict.keys()
+#print(x)
+#x = dict.items()
+#print(x)
+#dict["age"]=22
+#print(dict)
+#dict.update({"age": 25})
+#print(dict)
+#dict.pop("name")
+#print(dict)
+#dict.clear()
+#print(dict)
+
+#for x in dict:   # Loooop in dict
+ #  print(x)
+#x = dict.copy()
+#print(x)
+
+           #___________****_________#
+           
+           
+# Python If & Else Statement=-
+
+#a = 33
+#b = 44
+#if a > b:
+ #  print("a is greater than b")
+#else:
+   
+  # print("b is greater than a")              
+           
+#a = 44
+#b = 44
+#if a > b:
+ #  print("a is greater than b")
+#elif a==b:
+   #print("a and b are aqual") 
+   
+   
+               #________****_________#
+   
+# While Loop=-
+
+#i=1
+#while i<=6:
+ #  print(i)
+  # i+=1
+   
+#i=1
+#while i<6:
+ #  print(i)
+ #  if i==4:
+  #    break   
+#i+=1  
+ 
+ 
+           #____________****_______#  
+   
+
+
 #Function=- 
           #Function is block of code disgn to perform a particular task,,, whenever it is called,,,
           
@@ -211,12 +363,25 @@ list = ["amjad","khan",10,10.9 ,45,55,55,67,99,"tufail",11,15,"amjad"]
                             
                                   # We can create function  to specific task as per our needs such function is user defined function,,
                                   
+                                  # you can pass data, known as parameter, into a function,
+                                 
+                                 # A function can return data as a result,
+                                 
                        #Example
                     
-# a = 9
-# b = 8
-# gmean1=(a*b)/(a+b)
-# print(gmean1) 
+
+#def my_function():
+  # print("Hello word")
+
+
+
+
+
+
+#a = 9
+#b = 8
+#gmean1=(a*b)/(a+b)
+#print(gmean1) 
 
 # c=8
 # d=7
