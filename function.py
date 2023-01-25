@@ -25,8 +25,8 @@
 
             # Calling a Function,
 
-#def my_function():
- #  print("Hello word")
+#def my_function(fname):
+ #  print(fname+"Hello word")
 
 #my_function()
 
@@ -77,5 +77,4 @@
 # c=5
 # d=5
 # calculateGmean(c,d)
-
 

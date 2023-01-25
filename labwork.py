@@ -52,7 +52,7 @@
       
  # 3) Snake case=-
       
-            # my_variable-name = "amjad"
+            # my_variable_name = "amjad"
             
                    #________*****_______#      
 
@@ -86,9 +86,9 @@
 #print(list[4:])
 #print(list[:4])
 #print (type(a))
-#Text = "my is Amjad and i am"+ age
+#Text = "my nmae  is Amjad and i am"+ age
 #age=20
-#print (text.format(ag)
+#print (text.format(ag) -
 #list.insert(1, "khan")
 #print(list)
 #list.append("javascript")
